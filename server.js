@@ -2,8 +2,8 @@ const cors = require("cors");
 const express = require("express");
 const app = express();
 const fs = require('fs');
-const key = fs.readFileSync('./key.pem');
-const cert = fs.readFileSync('./cert.pem');
+// const key = fs.readFileSync('./key.pem');
+// const cert = fs.readFileSync('./cert.pem');
 const https = require('https');
 
 global.__basedir = __dirname;
